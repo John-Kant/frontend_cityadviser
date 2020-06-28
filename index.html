@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette"  rel="stylesheet"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <title>City Adviser</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="#home" class="navbar fixed-top navbar-expand-lg fixed navbar-dark px-5 ">
+      <a href="#home" class="navbar-brand">
+        <h5 class="text-green font-weight-bolder">CITY ADVISER</h5>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto text-capitalize">
+          <li class="nav-item active">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#map" class="nav-link">map of senegal</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#transport" class="nav-link">moving around</a>
+          </li>
+          <li class="nav-item ">
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+        </ul>
+        <div class="d-none d-lg-flex align-items-baseline">
+          <a href="https://en.wikipedia.org/wiki/Senegal" target="_blank"><button class="btn  btn_green btn-lg text-capitalize font-weight-bold">senegal</button></a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    
+    <!-- header -->
+    <header class="header" id="home">
+      <section id="video-motion">
+        <div class="video-background">
+          <div class="video-wrap">
+            <div id="video">
+              <video id="video-item" autoplay muted loop playsinline>
+                <source src="video/cover_video.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- text on video -->
+    <section id="text-on-video">
+      <div class="text text-uppercase text-center font-weight-bold">
+        <h1>Welcome to city adviser</h1>
+        <h5>were we help you move around the city</h5>
+        <a href="insidecity.html"><button type="button" class="btn btn_green btn-lg text-uppercase">Inside City</button></a>
+        <a href="betweencity.html"><button type="button" class="btn btn_green btn-lg text-uppercase">Between City</button></a>
+      </div>			
+    </section>
+    </header>
+    <!-- end of header -->
+
+    <!-- about section -->
+    <!-- <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <div class="d-flex flex-wrap align-items-center justify-content-start text-uppercase">
+              <h1 class="font-weight-bold mx-1 text-green">about</h1>
+              <h1 class="mx-1 title-parallogram">us</h1>
+            </div>
+            <p class="my-4 text-muted w-75 about-text">
+              We are here to help you move around the country and guide you through all the fabulous things the country has to offer.
+              We are passionately enthusiastic about this unique and fabulous country. Our aim is to show you what makes Senegal such an exciting country, and for you to love it as much as we do. 
+              We want to make your stay in the country a straightforward, enjoyable, and rewarding experience. 
+              Dakar its capital has a lot to offer. It’s an Atlantic port on the Cap-Vert peninsula. Its traditional Médina quarter is home to the Grande Mosquée, marked by a towering minaret. The Musée Théodore Monod displays cultural artifacts including clothing, drums, carvings and tools. The city’s vibrant nightlife is inspired by the local mbalax music.
+              So let us do the work – sit back, relax and Enjoy beautiful Senegal!
+            </p>
+          </div>
+          <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+            <div class="about-img_container">
+              <img src="img/about.png" class="img-fluid image-height" alt="about us">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- end of about section -->
+
+    <!-- about section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-4">
+          <div class="d-flex flex-wrap align-items-center justify-content-start text-uppercase">
+            <h1 class="font-weight-bold mx-1 text-green">about</h1>
+            <h1 class="mx-1 title-parallogram">us</h1>
+          </div>
+          <p class="my-4 text-muted w-75 about-text">
+            We are here to help you move around the country and guide you through all the fabulous things the country has to offer.
+            We are passionately enthusiastic about this unique and fabulous country. Our aim is to show you what makes Senegal such an exciting country, and for you to love it as much as we do. 
+            We want to make your stay in the country a straightforward, enjoyable, and rewarding experience. 
+            Dakar its capital has a lot to offer. It’s an Atlantic port on the Cap-Vert peninsula. 
+            Its traditional Médina quarter is home to the Grande Mosquée, marked by a towering minaret. 
+            The Musée Théodore Monod displays cultural artifacts including clothing, drums, carvings and tools. The city’s vibrant nightlife is inspired by the local mbalax music.
+            Gorée a tiny, car-free island off the coast of Dakar. 
+            So let us do the work – sit back, relax and Enjoy beautiful Senegal!
+          </p>
+          
+        </div>
+        <div class="col-md-6 about-pictures my-4 d-none d-lg-block">
+          <img src="img/about-1.jpg" alt="menu" class="img-1 img-thumbnail about-image">
+          <img src="img/about-2.jpg" alt="menu" class="img-2 img-thumbnail about-image">
+          <img src="img/about-3.jpg" alt="menu" class="img-3 img-thumbnail about-image">
+          <img src="img/about-4.jpg" alt="menu" class="img-4 img-thumbnail about-image">
+          <img src="img/about-5.jpeg" alt="menu" class="img-5 img-thumbnail about-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of about section -->
+
+    <!-- map of senegal -->
+    <section id="map" class="map py-5">
+      <div class="container">
+         <!-- section title -->
+         <div class="row">
+          <div class="col text-center mb-3">
+            <div class="d-flex flex-wrap text-uppercase justify-content-center">
+              <h1 class="font-weight-bold align-self-center mx-1 text-green">map of</h1>
+              <h1 class="title-parallogram mx-1">senegal</h1>
+            </div>
+          </div>
+        </div>
+        <!-- end of section title -->
+        <div class="row">
+          <div class="col-md-12 my-3">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977931.034440509!2d-15.638115763199181!3d14.476272859136234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172f5b3c5bb71%3A0x5a46a55099615940!2sSenegal!5e0!3m2!1sen!2spl!4v1593002034219!5m2!1sen!2spl" 
+              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--end of  map of senegal -->
+
+    <!-- transport section -->
+    <section class="transport py-5" id="transport">
+      <div class="container">
+        <!-- section title -->
+        <div class="row mb-5">
+          <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+            <div class="d-flex flex-wrap text-uppercase justify-content-center">
+              <h1 class="font-weight-bold align-self-center mx-1 title-parallogram">means of</h1>
+              <h1 class="text-green mx-1 align-self-center">transport</h1>
+            </div>
+          </div>
+        </div>
+        <!-- end of section title -->
+        <!-- cars -->
+        <div class="row">
+          <!-- single car -->
+          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+            <div class="card car-card">
+              <img src="img/train-express.jpg" class="card-img-top car-img" alt="">
+              <!-- card body -->
+              <div class="card-body">
+                <div class="car-info d-flex justify-content-between">
+                  <!-- first flex child-->
+                  <div class="car-text text-uppercase">
+                    <h6 class="font-weight-bold">train</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card body -->
+              <div class="card-footer text-capitalize">
+                <h5>the fast for intercity</h5>
+              </div>
+            </div>
+          </div>
+          <!-- end of single car -->
+          <!-- single car -->
+          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+            <div class="card car-card">
+              <img src="img/bus_2.jpg" class="card-img-top car-img" alt="">
+              <!-- card body -->
+              <div class="card-body">
+                <div class="car-info d-flex justify-content-between">
+                  <!-- first flex child-->
+                  <div class="car-text text-uppercase">
+                    <h6 class="font-weight-bold">bus</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card body -->
+              <div class="card-footer text-capitalize">
+                <p>good for long site seeing</p>
+              </div>
+            </div>
+          </div>
+          <!-- end of single car -->
+          <!-- single car -->
+          <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+            <div class="card car-card">
+              <img src="img/taxi.png" class="card-img-top car-img" alt="">
+              <!-- card body -->
+              <div class="card-body">
+                <div class="car-info d-flex justify-content-between">
+                  <!-- first flex child-->
+                  <div class="car-text text-uppercase">
+                    <h6 class="font-weight-bold">car maker</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card body -->
+              <div class="card-footer text-capitalize">
+                <p>the most convenient for moving around</p>
+              </div>
+            </div>
+          </div>
+          <!-- end of single car -->
+        </div>
+      </div>
+    </section>
+    <!-- end of transport section -->
+
+    <!-- ticket section -->
+    <section>
+      <div class="container ticket py-5 mb-5" id="ticket">
+        <!-- section title -->
+        <div class="row mb-5">
+          <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+            <div class="d-flex flex-wrap text-uppercase justify-content-center">
+              <h1 class="font-weight-bold align-self-center mx-1 title-parallogram">tickets</h1>
+              <h1 class="mx-1 align-self-center text-green">available</h1>
+            </div>
+          </div>
+        </div>
+        <!-- end of section title -->
+        <div class="row">
+          <!-- ticket carousel -->
+          <div class="col-6 col-md-6 col-lg-4 mx-auto">
+            <div id="ticketCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <!-- single item -->
+                <div class="carousel-item active">
+                  <img src="img/tick1.jpg" class="d-block w-100" alt="ticket 1">
+                </div>
+                <!-- end of single item-->
+
+                <!-- single item -->
+                <div class="carousel-item">
+                  <img src="img/tick2.jpg" class="d-block w-100" alt="ticket 2">
+                </div>
+                <!-- end of single item-->
+
+                <!-- single item -->
+                <div class="carousel-item">
+                  <img src="img/tick3.jpg" class="d-block w-100" alt="ticket 3">
+                </div>
+                <!-- end of single item-->
+              </div>
+              <a href="#ticketCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <i class="fas fa-arrow-left"></i>
+              </a>
+              <a href="#ticketCarousel" class="carousel-control-next" role="button" data-slide="next">
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of ticket section -->
+
+    <!--footer -->
+    <footer class="page-footer font-small elegant-color">
+
+      <!-- Footer Links -->
+      <div class="container">
+
+        <div class="row d-flex justify-content-center">
+
+          <!--Grid column-->
+          <div class="col d-flex justify-content-center my-5 pt-1">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mx-3 mx-md-4 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mx-3 mx-md-4 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mx-3 mx-md-4 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mx-3 mx-md-4 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mx-3 mx-md-4 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text mx-3 mx-md-4 fa-2x"> </i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="#" class="site"> CityAdviser.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
